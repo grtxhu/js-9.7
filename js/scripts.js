@@ -117,3 +117,20 @@ function setGamePoints() {
     playerPointsElem.innerHTML = player.score;
     computerPointsElem.innerHTML = computer.score;
 }
+
+
+
+if (player.score == 10) {
+        gameState = 'ended';
+        alert('The winner is + player.name');
+        setGameElements();
+    } else if (computer.score == 10) {
+        gameState = 'ended';
+        alert('Computer is the winner.');
+        setGameElements();
+        
+        
+    }
+        
+    }
+
