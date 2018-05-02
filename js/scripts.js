@@ -132,5 +132,5 @@ if (player.score == 10) {
         
     }
         
-    }
+    
 
