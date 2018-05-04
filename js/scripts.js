@@ -1,5 +1,6 @@
 
-  var newGameBtn = document.getElementById('js-newGameButton');
+
+var newGameBtn = document.getElementById('js-newGameButton');
 
 newGameBtn.addEventListener('click', newGame);
 
@@ -126,7 +127,7 @@ function setGamePoints() {
 function endGame () {
 if (player.score == 10) {
         gameState = 'ended';
-        alert('The winner is + player.name');
+        alert('Congratulations!You are the winner!');
         setGameElements();
     } else if (computer.score == 10) {
         gameState = 'ended';
@@ -136,7 +137,6 @@ if (player.score == 10) {
         
     }
 }
-      
     
         
     
